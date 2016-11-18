@@ -23,6 +23,8 @@ Another important feature of the model proposed in this paper is that it learns 
 
 I am interested in exploring one more direction of research that is entirely new, as far as I know: deeper hierarchy in the system of learners. Like a deep network with many layers, the system might benefit from multiple layers of controllers, with higher level controllers training lower level controllers and steadily pushing increased responsibility to them over time, with more complex goals and sparser feedback.
 
+The goal of this project is a learner capable of autonomously navigating a complex environment, learning new skills without a human in the loop and with minimal supervision or feedback. I am personally very excited for this next step in artificial intelligence research.
+
 <!-- In this case, the question is not how did I learn to ride a bike. The question is how my mind provided the context in which the task was performed. One piece of evidence that this is a critical factor for intelligence is that as deep learning algorithms take on more advanced tasks, they also develop more complex mechanisms for mutating their state. For example, a recurrent neural network's internal state is primarily a function of the input that it receives on a given time-step. In contrast, the specific inputs to an LSTM on a given time step have much less influence on the cell's output relative to other factors like the hidden state or the contents of memory. -->
 
 <!-- There are many ways in which we could study this problem of providing context for inference, but my favorite question is the problem of decomposing a task into subtasks. -->
